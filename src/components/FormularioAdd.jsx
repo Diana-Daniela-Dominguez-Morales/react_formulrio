@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
  */
 const FormularioAdd = ({ dispatch }) => {
   //Agregamos un useState
-  const [data, setData] = useState({ nombre: " ", numero: " ", sexo: " ", fechaNac:" ", imagen:" " });
+  const [data, setData] = useState({ nombre: "", numero: "", sexo: "", fechaNac:"" , imagen:"" });
   
   //agregamos el useState para las validaciones 
   const [validations, setValidations] = useState({
